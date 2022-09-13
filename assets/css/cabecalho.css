@@ -1,0 +1,90 @@
+.cabecalho {
+    background: #FFFFFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__conteudo {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.cabecalho__form {
+    border-radius: 20px; 
+    background-color: #F5F5F5;
+    width: 400px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 25px;
+}
+.cabecalho__input {
+    background-color: #F5F5F5;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.cabecalho__input::placeholder{
+    color: #A2A2A2;
+}
+
+.cabecalho__link{
+    margin-left: auto;
+}
+.cabecalho__botao {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.cabecalho__botao:hover{
+    background-color: #D4E4FA;
+}
+
+@media (max-width: 768px) {
+    .cabecalho__form{
+        width: 240px;
+    }
+
+    .cabecalho__logo {
+        margin-right: 25px;
+    }
+    .cabecalho__form{
+        padding: 0 10px 0 25px;
+    }
+}
+
+@media (max-width: 425px){
+    .cabecalho__input{
+        display: none;
+    }
+    .cabecalho__form{
+        padding: 0;
+        background-color: inherit;
+        order: 3;
+    }
+    .cabecalho__botao{
+        width: 100px;
+        margin-left: auto;
+    }
+    .cabecalho__search{
+        margin-left: auto;
+    }
+    /* .cabecalho__logo{
+        margin-right: 20px;
+    } */
+}

@@ -1,0 +1,39 @@
+.login{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.login__titulo{
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.login__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__formulario__nome, .login__formulario__senha{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.login__formulario__nome::placeholder, .login__formulario__senha::placeholder{
+    color: #A2A2A2;
+}
+
+.login__formulario__botao{
+    height: 50px;
+}
+
+@media (max-width: 768px){
+    .login__formulario{
+        align-items: center;
+    }
+    .login__formulario__botao{
+        width: 120px;
+    }
+}

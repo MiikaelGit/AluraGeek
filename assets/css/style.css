@@ -1,0 +1,48 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+.botao {
+    cursor: pointer;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.botao:hover{
+    background-color: #5595E9;
+}
+
+.formulario{
+    height: 50px;
+    width: 88%;
+    border-bottom: 2px solid #C8C8C8;
+    color: #464646;
+    padding: 0 0 0 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 704px;
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        width: 330px;
+    }
+    .formulario{
+        width: 96%;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/novo-produto.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <title>Adicionar produto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo container">
+            <div class="cabecalho__logo">
+                <a href="index.html" class="cabecalho__home">
+                    <img src="assets/img/logo.png" alt="Logomarca da Alura Geek" title="Home">
+                </a>
+            </div>
+            <form class="cabecalho__form" action="">
+                <input class="cabecalho__input" class="" type="text" placeholder="O que deseja encontrar?">
+                <input class="cabecalho__search" type="image" src="assets/img/search.png">
+            </form>
+            <a class="cabecalho__link" href="produtos.html">
+                <button class="cabecalho__botao adicionar__cabecalho__botao">Menu administrador</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="adicionar adicionar__container">
+            <h2 class="adicionar__titulo">Adicionar novo produto</h2>
+            <form class="adicionar__formulario" action="">
+                <input placeholder=" " id="imagem" class="formulario adicionar__formulario__campo adicionar__input__imagem" type="text">
+                <label class=" adicionar__formulario__label contato__formulario__label" for="imagem">URL da imagem</label>
+                <input placeholder=" " id="categoria" class="formulario adicionar__formulario__campo adicionar__input__categoria" type="text">
+                <label class=" adicionar__formulario__label contato__formulario__label" for="categoria"> Categoria</label>
+                <input placeholder=" " id="produto" class="formulario adicionar__formulario__campo adicionar__input__produto" type="text">
+                <label class=" adicionar__formulario__label contato__formulario__label" for="produto">Nome do produto</label>
+                <input placeholder=" " id="preco" class="formulario adicionar__formulario__campo adicionar__input__preco" type="text">
+                <label class=" adicionar__formulario__label contato__formulario__label" for="preco">Preço do produto</label>
+                <textarea placeholder="Descrição do produto" id="adicionar__formulario__descricao" class="contato__formulario__mensagem" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="botao adicionar__formulario__botao" value="Adicionar produto">
+            </form>
+        </section>
+    </main>
+    <section class="contato">
+        <div class="contato__container container">
+            <img src="assets/img/logo.png" alt="Logomarca da AluraGeek">
+            <div class="contato__informacoes">
+                <a href="">Quem somos nós</a>
+                <a href="">Política de privacidade</a>
+                <a href="">Programa fidelidade</a>
+                <a href="">Nossas lojas</a>
+                <a href="">Quero ser franqueado</a>
+                <a href="">Anucie aqui</a>
+            </div>
+            <form class="contato__formulario" action="">
+                <p class="contato__formulario__texto">Fale conosco</p>
+                <div class="contato__formulario__campos">
+                    <input autocomplete="off" placeholder=" " type="text" id="name" class="formulario">
+                    <label for="name" class="contato__formulario__label">Nome</label>
+                    <textarea class="contato__formulario__mensagem" name="" id="mensage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    <input class="contato__formularioo__botao botao" type="submit" value="Enviar mensagem">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Mikael Inêz<br>2022</p>
+    </footer>
+</body>
+</html>
