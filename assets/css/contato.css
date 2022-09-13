@@ -11,6 +11,7 @@
 .contato__informacoes a{
     display: block;
     padding-bottom: 25px;
+    color: #464646;
 }
 
 .contato__formulario{
