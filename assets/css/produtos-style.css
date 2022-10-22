@@ -46,7 +46,11 @@
     justify-content: space-between;
 }
 
+/*Media Queries*/
 @media (max-width: 768px){
+    .principal{
+        padding-bottom: 0;
+    }
     .informacoes__imagem{
         width: 340px;
         height: 235px;
@@ -65,6 +69,7 @@
 @media (max-width: 425px){
     .principal{
         padding-top: 0;
+        padding-bottom: 0;
     }
     .informacoes__container{
         width: 100vw;

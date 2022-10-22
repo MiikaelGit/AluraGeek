@@ -1,0 +1,130 @@
+{
+  "produto": [
+    {
+      "id": 0,
+      "img": "assets/img/capacetebranco.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 1,
+      "img": "assets/img/capacetepreto.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/yodaadulto.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/jedi.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/yodacrianca.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/capuz.png",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Star Wars"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/controleXbox.png",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/ps5.png",
+      "nome": "Controle e console XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/nintendo64.png",
+      "nome": "Console XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 9,
+      "img": "assets/img/controlenintendo.png",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 10,
+      "img": "assets/img/xboxone.png",
+      "nome": "Console XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 11,
+      "img": "assets/img/gameboy.png",
+      "nome": "Game Boy Color",
+      "preco": "R$ 60,00",
+      "categoria": "Consoles"
+    },
+    {
+      "id": 12,
+      "img": "assets/img/atari.png",
+      "nome": "Camisa Atari",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    },
+    {
+      "id": 13,
+      "img": "assets/img/contolenamao.png",
+      "nome": "Camisa SNES",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    },
+    {
+      "id": 14,
+      "img": "assets/img/sonic.png",
+      "nome": "Boneco Sonic",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    },
+    {
+      "id": 15,
+      "img": "assets/img/despertador.png",
+      "nome": "Despertador XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    },
+    {
+      "id": 16,
+      "img": "assets/img/oculosVR.png",
+      "nome": "Óculos XYZ",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    },
+    {
+      "id": 17,
+      "img": "assets/img/pikachu.png",
+      "nome": "Pikachu Pelúcia",
+      "preco": "R$ 60,00",
+      "categoria": "Diversos"
+    }
+  ]
+}

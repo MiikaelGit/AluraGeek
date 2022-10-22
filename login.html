@@ -32,10 +32,11 @@
     <main>
         <section class="login">
             <h2 class="login__titulo">Iniciar Sessão</h2>
+            <span data-erro></span>
             <form class="login__formulario" action="">
-                <input class="login__formulario__nome formulario" type="email" placeholder="Escreva seu email">
-                <input class="login__formulario__senha formulario" type="password" placeholder="Escreva sua senha">
-                <input class="login__formulario__botao botao" type="submit" value="Entrar">
+                <input data-input-sessao pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" class="login__formulario__nome formulario" type="email" placeholder="Escreva seu email" required>
+                <input data-senha-sessao class="login__formulario__senha formulario" type="password" placeholder="Escreva sua senha" required>
+                <input data-botao-sessao class="login__formulario__botao botao" type="submit" value="Entrar">
             </form>
         </section>
     </main>
@@ -53,10 +54,10 @@
             <form class="contato__formulario" action="">
                 <p class="contato__formulario__texto">Fale conosco</p>
                 <div class="contato__formulario__campos">
-                    <input autocomplete="off" placeholder=" " type="text" id="name" class="formulario">
+                    <input data-contato required autocomplete="off" placeholder=" " type="text" id="name" class="formulario">
                     <label for="name" class="contato__formulario__label">Nome</label>
-                    <textarea class="contato__formulario__mensagem" name="" id="mensage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-                    <input class="contato__formularioo__botao botao" type="submit" value="Enviar mensagem">
+                    <textarea data-mensagem required class="contato__formulario__mensagem" name="" id="mensage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    <input data-botao-contato class="contato__formularioo__botao botao" type="submit" value="Enviar mensagem">
                 </div>
             </form>
         </div>
@@ -65,4 +66,6 @@
     <p class="rodape__texto">Desenvolvido por Mikael Inêz<br>2022</p>
 </footer>
 </body>
+<script src="assets/js/validacao.js"></script>
+<script src="assets/js/validacao-login.js"></script>
 </html>

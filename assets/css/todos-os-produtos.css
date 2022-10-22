@@ -24,7 +24,7 @@
 }
 
  .produtos__card{
-    margin: 20px 8px 50px;
+    margin: 20px 13px 50px;
     position: relative;
  }
 
@@ -36,28 +36,37 @@
     margin-left: 0;
  }
 
+ .produtos__card__imagem{
+    width: 176px;
+    height: 176px;
+}
+
  .icone__lixeira{
     position: absolute;
     left: 60.5%;
     right: 22.49%;
     top: 3.49%;
     bottom: 107.5%;
+    cursor: pointer;
  }
 
  .icone__editar{
     position: absolute;
     left: 84.5%;
     right: 15.49%;
-    top: -71.51%;
+    top: 2.49%;
     bottom: 12.5%;
+    cursor: pointer;
  }
 
+ /*Media Queries*/
  @media (max-width: 768px) {
     .produtos__card{
-        margin: 20px 7px 2px;
+        margin: 20px 11px 2px;
     }
     .produtos__card__imagem{
         width: 165px;
+        height: 165px;
     }
     .produtos__card:nth-child(6n){
         margin-right: 7px;
@@ -76,6 +85,9 @@
 }
 
 @media (max-width: 425px){
+    .produtos__card{
+        margin: 20px 7px 2px;
+    }
     .produtos__titulo{
         font-size: 22px;
         margin-bottom: 20px;
@@ -87,6 +99,7 @@
     }
     .produtos__card__imagem{
         width: 158px;
+        height: 158px;
     }
 
     .produtos__card:nth-child(4n){

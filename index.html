@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/destaque.css">
     <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/produtos-style.css">
+    <link rel="stylesheet" href="assets/css/todos-os-produtos.css">
     <link rel="stylesheet" href="assets/css/contato.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
     <title>Alura Geek - Home</title>
@@ -34,176 +36,176 @@
         </div>
     </header>
     <main>
-        <section class="destaque">
+        <section class="destaque" data-destaque>
             <div class="destaque__banner container">
                 <h1 class="destaque__titulo">Dezembro Promocional</h1>
                 <p class="destaque__texto">Produtos selecionados com 33% de desconto</p>
-                <button class="destaque__botao botao">Ver Consoles</button>
+                <a href="#consoles" class="destaque__botao botao">Ver Consoles</a>
             </div>
         </section>
-        <section class="produtos">
+        <section class="produtos" data-produtos>
             <section class="produtos__secao container">
                 <div class="produtos__cabecalho">
                     <h2 class="produtos__titulo">Star Wars</h2>
-                    <a href="produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
+                    <a href="todos-os-produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
                 </div>
-                <div class="produtos__container">
-                    <div class="produtos__produto">
+                <div class="produtos__container" data-starwars>
+                    <!-- <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/capacetebranco.png" alt="Foto do Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img data-imagem src="assets/img/capacetebranco.png" alt="Foto do Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto1.html" class="produtos__botao">Ver produto</a>
+                            <button id="0" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/capacetepreto.png" alt="Foto do Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img  data-imagem src="assets/img/capacetepreto.png" alt="Foto do Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto2.html" class="produtos__botao">Ver produto</a>
+                            <button id="1" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/yodaadulto.png" alt="Foto do Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img data-imagem src="assets/img/yodaadulto.png" alt="Foto do Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto3.html" class="produtos__botao">Ver produto</a>
+                            <button id="2" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/jedi.png" alt="Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img data-imagem src="assets/img/jedi.png" alt="Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto4.html" class="produtos__botao">Ver produto</a>
+                            <button id="3" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/yodacrianca.png" alt="Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img data-imagem src="assets/img/yodacrianca.png" alt="Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto5.html" class="produtos__botao">Ver produto</a>
+                            <button id="4" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/capuz.png" alt="Foto do Produto XYZ">
-                            <p class="produtos__produto__nome">Produto XYZ</p>
+                            <img data-imagem src="assets/img/capuz.png" alt="Foto do Produto XYZ">
+                            <p data-nome class="produtos__produto__nome">Produto XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto6.html" class="produtos__botao">Ver produto</a>
+                            <button id="5" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="produtos__cabecalho">
-                    <h2 class="produtos__titulo">Consoles</h2>
-                    <a href="produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
+                    <h2 class="produtos__titulo" id="consoles">Consoles</h2>
+                    <a href="todos-os-produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
                 </div>
-                <div class="produtos__container">
-                    <div class="produtos__produto">
+                <div class="produtos__container" data-consoles>
+                    <!-- <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/controleXbox.png" alt="Imagem de um Controle XYZ">
-                            <p class="produtos__produto__nome">Controle XYZ</p>
+                            <img data-imagem src="assets/img/controleXbox.png" alt="Imagem de um Controle XYZ">
+                            <p data-nome class="produtos__produto__nome">Controle XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto7.html" class="produtos__botao">Ver produto</a>
+                            <button id="6" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/ps5.png" alt="Imagem de um Controle e console XYZ">
-                            <p class="produtos__produto__nome">Controle e console XYZ</p>
+                            <img data-imagem src="assets/img/ps5.png" alt="Imagem de um Controle e console XYZ">
+                            <p data-nome class="produtos__produto__nome">Controle e console XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto8.html" class="produtos__botao">Ver produto</a>
+                            <button id="7" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/nintendo64.png" alt="Console XYZ">
-                            <p class="produtos__produto__nome">Console XYZ</p>
+                            <img data-imagem src="assets/img/nintendo64.png" alt="Console XYZ">
+                            <p data-nome class="produtos__produto__nome">Console XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto9.html" class="produtos__botao">Ver produto</a>
+                            <button id="8" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/controlenintendo.png" alt="Imagem de um Controle XYZ">
-                            <p class="produtos__produto__nome">Controle XYZ</p>
+                            <img data-imagem src="assets/img/controlenintendo.png" alt="Imagem de um Controle XYZ">
+                            <p data-nome class="produtos__produto__nome">Controle XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto10.html" class="produtos__botao">Ver produto</a>
+                            <button id="9" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/xboxone.png" alt="Imagem de um Console XYZ">
-                            <p class="produtos__produto__nome">Console XYZ</p>
+                            <img data-imagem src="assets/img/xboxone.png" alt="Imagem de um Console XYZ">
+                            <p data-nome class="produtos__produto__nome">Console XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto11.html" class="produtos__botao">Ver produto</a>
+                            <button id="10" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/gameboy.png" alt="Imagem de um Game Boy Color">
-                            <p class="produtos__produto__nome">Game Boy Color</p>
+                            <img data-imagem src="assets/img/gameboy.png" alt="Imagem de um Game Boy Color">
+                            <p data-nome  class="produtos__produto__nome">Game Boy Color</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto12.html" class="produtos__botao">Ver produto</a>
+                            <button id="11" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="produtos__cabecalho">
                     <h2 class="produtos__titulo">Diversos</h2>
-                    <a href="produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
+                    <a href="todos-os-produtos.html" class="produtos__botao">Ver tudo <img class="produtos__botao__imagem" src="assets/img/seta.png" alt=""></a>
                 </div>
-                <div class="produtos__container">
-                    <div class="produtos__produto">
+                <div class="produtos__container" data-diversos>
+                    <!-- <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/atari.png" alt="Foto de um Camisa Atari">
-                            <p class="produtos__produto__nome">Camisa Atari</p>
+                            <img data-imagem src="assets/img/atari.png" alt="Foto de um Camisa Atari">
+                            <p data-nome class="produtos__produto__nome">Camisa Atari</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto13.html" class="produtos__botao">Ver produto</a>
+                            <button id="12" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/contolenamao.png" alt="Foto de um Camisa SNES">
-                            <p class="produtos__produto__nome">Camisa SNES</p>
+                            <img data-imagem src="assets/img/contolenamao.png" alt="Foto de um Camisa SNES">
+                            <p data-nome class="produtos__produto__nome">Camisa SNES</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto14.html" class="produtos__botao">Ver produto</a>
+                            <button id="13" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/sonic.png" alt="Foto de um Boneco Sonic">
-                            <p class="produtos__produto__nome">Boneco Sonic</p>
+                            <img data-imagem src="assets/img/sonic.png" alt="Foto de um Boneco Sonic">
+                            <p data-nome class="produtos__produto__nome">Boneco Sonic</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto15.html" class="produtos__botao">Ver produto</a>
+                            <button id="14" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/despertador.png" alt="Foto de um Despertador XYZ">
-                            <p class="produtos__produto__nome">Despertador XYZ</p>
+                            <img data-imagem src="assets/img/despertador.png" alt="Foto de um Despertador XYZ">
+                            <p data-nome class="produtos__produto__nome">Despertador XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto16.html" class="produtos__botao">Ver produto</a>
+                            <button id="15" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/oculosVR.png" alt="Foto de um Óculos XYZ">
-                            <p class="produtos__produto__nome">Óculos XYZ</p>
+                            <img data-imagem src="assets/img/oculosVR.png" alt="Foto de um Óculos XYZ">
+                            <p data-nome class="produtos__produto__nome">Óculos XYZ</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto17.html" class="produtos__botao">Ver produto</a>
+                            <button id="16" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
                     </div>
                     <div class="produtos__produto">
                         <div class="produtos__produto__descricao">
-                            <img src="assets/img/pikachu.png" alt="Foto de um Pikachu Pelúcia">
-                            <p class="produtos__produto__nome">Pikachu Pelúcia</p>
+                            <img data-imagem src="assets/img/pikachu.png" alt="Foto de um Pikachu Pelúcia">
+                            <p data-nome class="produtos__produto__nome">Pikachu Pelúcia</p>
                             <p class="produtos__produto__preco">R$ 60,00</p>
-                            <a href="produtos/produto18.html" class="produtos__botao">Ver produto</a>
+                            <button id="17" onclick="produtoDetalhe(this.id)" class="produtos__container__botao produtos__botao">Ver produto</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </section>
@@ -222,10 +224,10 @@
                 <form class="contato__formulario" action="">
                     <p class="contato__formulario__texto">Fale conosco</p>
                     <div class="contato__formulario__campos">
-                        <input autocomplete="off" placeholder=" " type="text" id="name" class="formulario">
+                        <input data-contato autocomplete="off" placeholder=" " type="text" id="name" class="formulario" required>
                         <label for="name" class="contato__formulario__label">Nome</label>
-                        <textarea class="contato__formulario__mensagem" name="" id="mensage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-                        <input class="contato__formularioo__botao botao" type="submit" value="Enviar mensagem">
+                        <textarea data-mensagem required class="contato__formulario__mensagem" name="" id="mensage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                        <input data-botao-contato class="contato__formularioo__botao botao" type="submit" value="Enviar mensagem">
                     </div>
                 </form>
             </div>
@@ -234,4 +236,7 @@
         <p class="rodape__texto">Desenvolvido por Mikael Inêz<br>2022</p>
     </footer>
 </body>
+<script src="assets/js/validacao.js"></script>
+<script type="module" src="assets/js/controller/produtos-controller.js"></script>
+<script src="assets/js/app.js"></script>
 </html>

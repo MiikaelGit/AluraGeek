@@ -55,6 +55,7 @@
     background-color: #D4E4FA;
 }
 
+/*Media Queries*/
 @media (max-width: 768px) {
     .cabecalho__form{
         width: 240px;

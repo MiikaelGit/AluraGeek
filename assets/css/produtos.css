@@ -32,6 +32,11 @@
     margin-left: auto;
 }
 
+.produtos__container__botao {
+    margin-left: 0;
+    background-color: inherit;
+}
+
 .produtos__botao__imagem{
     margin-left: 10px;
 }
@@ -52,6 +57,7 @@
     margin: 5px 0;
 }
 
+/*Media Queries*/
 @media (max-width: 768px) {
     .produtos__produto:nth-child(5){
         display: none;

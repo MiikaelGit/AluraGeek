@@ -35,8 +35,11 @@
     width: 130px;
     height: 50px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+/*Media Queries*/
 @media (max-width: 425px){
     .destaque{
         height: 200px;

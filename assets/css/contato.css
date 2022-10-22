@@ -60,7 +60,7 @@
     height: 50px;
     font-weight: 400;
 }
-
+/*Media Queries*/
 @media(max-width: 768px){
     .contato__container{
         flex-direction: column;

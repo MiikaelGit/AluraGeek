@@ -29,11 +29,34 @@
     height: 50px;
 }
 
+.erro {
+    color: red;
+    text-align: center;
+}
+
+.erro__aviso {
+    color: black;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/*Media Queries*/
 @media (max-width: 768px){
     .login__formulario{
         align-items: center;
     }
     .login__formulario__botao{
         width: 120px;
+    }
+}
+
+@media (max-width: 425px) {
+    .erro{
+        width: 90vw;
+    }
+
+    .erro__aviso {
+        width: 90vw;
     }
 }

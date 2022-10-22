@@ -34,18 +34,18 @@
     </header>
     <main>
         <section class="adicionar adicionar__container">
-            <h2 class="adicionar__titulo">Adicionar novo produto</h2>
+            <h2 class="adicionar__titulo">Editar produto</h2>
             <form class="adicionar__formulario" action="" data-form>
                 <input data-URL required placeholder=" " id="imagem" class="formulario adicionar__formulario__campo adicionar__input__imagem" type="text">
                 <label class=" adicionar__formulario__label contato__formulario__label" for="imagem">URL da imagem</label>
                 <input data-categoria value="Consoles" required placeholder=" " id="categoria" class="formulario adicionar__formulario__campo adicionar__input__categoria" type="text">
                 <label class=" adicionar__formulario__label contato__formulario__label" for="categoria"> Categoria</label>
-                <input data-nome-produto value="Produto XYZ" required placeholder=" " id="produto" class="formulario adicionar__formulario__campo adicionar__input__produto" type="text">
+                <input data-nome-produto required placeholder=" " id="produto" class="formulario adicionar__formulario__campo adicionar__input__produto" type="text">
                 <label class=" adicionar__formulario__label contato__formulario__label" for="produto">Nome do produto</label>
-                <input data-preco value="6000" required placeholder=" " id="preco" class="formulario adicionar__formulario__campo adicionar__input__preco" type="text">
+                <input data-preco required placeholder=" " id="preco" class="formulario adicionar__formulario__campo adicionar__input__preco" type="text">
                 <label class=" adicionar__formulario__label contato__formulario__label" for="preco">Preço do produto</label>
                 <textarea data-mensagem-produto placeholder="Descrição do produto" id="adicionar__formulario__descricao" class="contato__formulario__mensagem" name="" id="" cols="30" rows="10"></textarea>
-                <input data-botao-produto type="submit" class="botao adicionar__formulario__botao" value="Adicionar produto">
+                <input data-botao-produto type="submit" class="botao adicionar__formulario__botao" value="Atualizar produto">
             </form>
         </section>
     </main> 
@@ -77,6 +77,6 @@
 </body>
 <script src="assets/js/validacao.js"></script>
 <script src="assets/js/validacao-novoProduto.js"></script>
-<script type="module" src="assets/js/controller/cria-produtos-controller.js"></script>
+<script type="module" src="assets/js/controller/atualiza-produtos-controller.js"></script>
 <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
 </html>
