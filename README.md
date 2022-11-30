@@ -7,10 +7,12 @@
 ## Instuções
 ### Para que a aplicação funcione corretamente será preciso que o usuário:
 1. Baixe os arquivos do projeto e adicione em uma pasta no seu computador
-2. Abra o projeto no VSCode ou outro interpretador
-3. Execute o terminal na pasta "assets"
-4. Digite o seguinte codigo no terminal: `json-server --watch db.json` e execute
-5. Abra o arquivo **index.html** no [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) ou equivalente
+2. Baixe e instale o [node](https://nodejs.org/en/)
+3. Abra o projeto no VSCode ou outro interpretador
+4. Execute o terminal na pasta "assets"
+5. Instale o pacote do json server através do terminal com este comando: `npm install -g json-server`
+6. Depois de instalado o json server, execute este código no terminal: `json-server --watch db.json`
+7. Abra o arquivo **index.html** no [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) ou equivalente
 
 ## Observações
 - *Verifique se o terminal está aberto na pasta correta*
