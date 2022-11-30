@@ -9,7 +9,7 @@
 1. Baixe os arquivos do projeto e adicione em uma pasta no seu computador
 2. Abra o projeto no VSCode ou outro interpretador
 3. Execute o terminal na pasta "assets"
-4. Digite o seguinte codigo no terminal: json-server --watch db.json e execute
+4. Digite o seguinte codigo no terminal: ==json-server --watch db.json== e execute
 5. Abra o arquivo **index.html** no [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) ou equivalente
 
 ## Observações
